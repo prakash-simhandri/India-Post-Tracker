@@ -55,7 +55,7 @@ def post_tracker():
             else:
                 if len(reader) < len(reader1):
                     url = "https://www.fast2sms.com/dev/bulk"
-                    payload = "sender_id=FSTSMS&message="+str(Events_list[0])+"&language=english&route=p&numbers=9566669186"      
+                    payload = "sender_id=FSTSMS&message="+str(Events_list[0])+"&language=english&route=p&numbers="+mobile_number     
                     headers = {
                     'authorization': "SbGBWXK9CcnHRdUsex0w72hoyAFQZrYzNfIEu354vPkmJ1La8tN9L7UoAWgiaBMuY13bkrQRxSclOyfV",
                     'Content-Type': "application/x-www-form-urlencoded",
