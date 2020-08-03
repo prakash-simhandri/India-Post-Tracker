@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import time,json,requests
 
 tracking_number = input("Enter Your Tracking Number ")
-mobile_number = iinput(" Enter your mobile number")
+mobile_number = input(" Enter your mobile number")
 flag = True
 def post_tracker():
     driver = webdriver.Chrome("./chromedriver")
