@@ -3,8 +3,8 @@ from selenium.webdriver.support.ui import Select
 from bs4 import BeautifulSoup
 import time,json,requests
 
-tracking_number = "EE725644093IN"
-mobile_number = 9566669186
+tracking_number = input("Enter Your Tracking Number ")
+mobile_number = int(input(" Enter your mobile number"))
 flag = True
 def post_tracker():
     driver = webdriver.Chrome("./chromedriver")
