@@ -57,7 +57,7 @@ def post_tracker():
                     url = "https://www.fast2sms.com/dev/bulk"
                     payload = "sender_id=FSTSMS&message="+str(Events_list[0])+"&language=english&route=p&numbers="+mobile_number     
                     headers = {
-                    'authorization': "SbGBWXK9CcnHRdUsex0w72hoyAFQZrYzNfIEu354vPkmJ1La8tN9L7UoAWgiaBMuY13bkrQRxSclOyfV",
+                    'authorization': "API_TOKEN",
                     'Content-Type': "application/x-www-form-urlencoded",
                     'Cache-Control': "no-cache",
                     }
